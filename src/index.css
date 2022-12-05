@@ -1,10 +1,16 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Courier New", "Courier", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(151, 212, 237);
+  background: linear-gradient(90deg, rgba(151, 212, 237, 1) 0%, rgba(19, 127, 189, 0.6372530395136777) 32%, rgba(225, 146, 230, 0.7770706686930091) 100%);
+}
+
+button {
+  cursor: pointer;
 }
 
 code {
